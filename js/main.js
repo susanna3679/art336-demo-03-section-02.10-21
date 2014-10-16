@@ -53,7 +53,7 @@ $(document).ready(function(){
 
 // initialize responsiveslides.js
 // Remove /* and */ to initiate the plugin
-/* $(function () {
+$(function () {
     $(".slider").responsiveSlides({
         auto: false,
         pager: false,
@@ -61,4 +61,4 @@ $(document).ready(function(){
         speed: 500,
         namespace: "callbacks"
     });
-}); */
+});

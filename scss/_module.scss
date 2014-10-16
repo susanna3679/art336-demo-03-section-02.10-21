@@ -56,9 +56,28 @@ header[role="banner"] p {
 }
 
 header[role="banner"] a {
-    color: background-color;
+    color: $background-color;
     @include body-font-italic;
     transition: color 400ms linear;
+}
+
+header[role="banner"] a:hover {
+    color: darken($background-color, 12%);
+    transition: color 400ms linear;
+}
+
+.contact a svg {
+    height: 24px;
+    width: 24px;
+}
+
+.contact a svg path {
+    fill: $background-color;
+}
+
+.contact a:hover svg path {
+    fill: darken($background-color, 12%);
+    transform: fill 400ms linear;
 }
 
 header[role="banner"] a:hover {
